@@ -1,0 +1,135 @@
+@media screen and (max-width: 700px) {
+  .header_super {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .header_super {
+    position: relative;
+    height: 95vh;
+    width: 100%;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .res {
+    position: relative;
+    top: 5%;
+    display: block;
+  }
+}
+@media screen and (max-width: 700px) {
+  .logo_container_headerres {
+    display: block;
+  }
+}
+
+.ckdjcdlk {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  margin-left: -40px;
+  top: 2%;
+  z-index: 10;
+}
+.banner_header_divRes {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  margin-top: -80px;
+}
+.banner_headerRes {
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  margin-top: 130px;
+}
+
+@media screen and (min-width: 700px) {
+  .res,
+  .logo_container_headerres,
+  .banner_header_divRes {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .menu_iconres {
+    width: 100%;
+    background-color: yellowgreen;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .logo_container_headerres {
+    height: 70px;
+    width: 100%;
+  }
+}
+
+.logo_header {
+  height: 100%;
+  width: 120px;
+}
+
+.logo_container_header {
+  height: 70px;
+  margin-left: -130px;
+  width: 100%;
+}
+
+.nav2q {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* padding-left: 90px; */
+  padding-top: 25px;
+  z-index: 2;
+  align-items: center;
+}
+
+.banner_header {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+
+.bar1 {
+  height: 1px;
+  width: 20px;
+  background-color: black;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  transition: stroke-dashoffset 0.4s cubic-bezier(0.7, 0, 0.3, 1),
+    transform 0.4s cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.bar2 {
+  height: 1px;
+  width: 15px;
+  background-color: black;
+  margin-top: 5px;
+}
+
+.bar3 {
+  height: 1px;
+  background-color: black;
+  width: 20px;
+  margin-top: 5px;
+}
+
+.menu_icon {
+  width: 100%;
+  padding-left: 50px;
+}

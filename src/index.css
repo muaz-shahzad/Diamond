@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.search{
+  display: flex;
+  justify-content: center;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.288); 
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(7, 7, 7, 0.5); 
+  border-radius: 8px;
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.719); 
+  width: 10px;
+
+}
+
+@font-face {
+  font-family: 'Dia';
+  src: url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/Dia-BoldItalic.woff2") format("woff2"), url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/Dia-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dia';
+  src: url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/Dia-Regular.woff2") format("woff2"), url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/Dia-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dia';
+  src: url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/Dia-Bold.woff2") format("woff2"), url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/Dia-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dia';
+  src: url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/Dia-RegularItalic.woff2") format("woff2"), url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/Dia-RegularItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IvarHeadline';
+  src: url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/IvarHeadline-Regular.woff2") format("woff2"), url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/IvarHeadline-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IvarHeadline';
+  src: url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/IvarHeadline-Italic.woff2") format("woff2"), url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/IvarHeadline-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IvarDisplay';
+  src: url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/IvarDisplay-Regular.woff2") format("woff2"), url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/IvarDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IvarDisplay';
+  src: url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/IvarDisplay-Italic.woff2") format("woff2"), url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/IvarDisplay-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IvarText';
+  src: url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/IvarText-Regular.woff2") format("woff2"), url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/IvarText-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IvarText';
+  src: url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/IvarText-Italic.woff2") format("woff2"), url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/IvarText-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IvarText';
+  src: url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/IvarText-SemiBold.woff2") format("woff2"), url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/IvarText-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IvarText';
+  src: url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/IvarText-SemiBoldItalic.woff2") format("woff2"), url("https://www.naturaldiamonds.com/for-moments-like-no-other/wp-content/themes/ond/fonts/web/IvarText-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
